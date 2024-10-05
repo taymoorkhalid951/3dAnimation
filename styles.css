@@ -184,3 +184,15 @@ canvas{
     font-weight: 400;
     color:#7c7c7c;
 }
+
+#footer {
+    position: absolute; /* Keeps it fixed on the side */
+    bottom: 10px;   /* Distance from the bottom of the viewport */
+    left: 15px;    /* Distance from the right of the viewport */
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+    color: white;   /* Text color */
+    padding: 10px;  /* Some padding for aesthetics */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 14px; /* Font size */
+    z-index: 1000;   /* Ensures it stays on top of other elements */
+}
